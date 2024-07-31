@@ -1,0 +1,33 @@
+{
+    "name": "socialiteproviders/workos",
+    "description": "WorkOS AuthKit and SSO Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "workos",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Josh Cirre",
+            "email": "joshcirre@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://socialiteproviders.com/auth0"
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\WorkOS\\": ""
+        }
+    }
+}
